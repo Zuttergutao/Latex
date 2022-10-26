@@ -1,0 +1,58 @@
+\documentclass[twoside,a4paper,AutoFakeBold,12pt]{ctexbook}
+\include{setup/package.tex}
+\include{setup/setting.tex}
+
+
+\begin{document}
+
+% cover
+\include{data/cover.tex}
+
+% 独创性声明
+\include{data/declare.tex}
+
+% 摘要
+\include{data/Abstract.tex}
+
+% 目录
+\include{data/Toc.tex}
+
+% 设置正文页码
+\setcounter{page}{1}
+\pagenumbering{arabic} % 正文页码从1开始
+% 设置页眉页脚
+\pagestyle{fancy}
+
+% 第一章
+\include{Chapter/Chapter1.tex}
+
+
+% 第二章
+\include{Chapter/Chapter2.tex}
+
+
+% 第三章
+\include{Chapter/Chapter3.tex}
+
+
+% 第四章
+\include{Chapter/Chapter4.tex}
+
+
+
+% 引用
+\addcontentsline{toc}{part}{参考文献} % 添加到目录中
+\fancyhead[CO]{\wuhao\song 参考文献}
+
+\bibliographystyle{unsrt}
+\bibliography{Bibtex}
+
+
+% 发表论文和参加科研情况说明
+\include{data/achievement.tex}
+
+% 致谢
+\include{data/acknowledgement.tex}
+
+
+\end{document}

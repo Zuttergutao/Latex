@@ -1,0 +1,77 @@
+\Chapter{第一章}
+
+\section{二级标题}
+This is the text in first paragraph. This is the text in first 
+paragraph. This is the text in first paragraph. \par
+This is the text in second paragraph. This is the text in second 
+paragraph. This is the text in second paragraph.
+
+This is another paragraph, contains some text to test the paragraph
+interlining, paragraph indentation and some other features. Also, 
+is easy to see how new paragraphs are defined by simply entering a 
+double blank space.
+
+
+\subsection{图}
+
+
+\begin{figure}[!htp]
+    \begin{center}
+        \includegraphics[width=5cm]{fig/天津大学logo.jpeg}
+    \end{center}
+    \vspace{-2em}
+    \caption{天津大学校徽.}
+    \vspace{-1em}
+    \addtocounter{figure}{-1}
+    \renewcommand{\figurename}{Fig.}    
+    \caption{the title of the sub-figure.} 
+
+\end{figure}
+
+\newpage
+
+\subsection{表}
+
+\begin{center}
+    \begin{table}[!htp]
+        \vspace{-2em}
+        \caption{答辩信息.}
+        \vspace{-1.5em}
+        \addtocounter{table}{-1}
+        \renewcommand{\tablename}{Table.}    
+        \caption{the title of the Table.} 
+        \vspace*{-1em}
+        \song\xiaosi{
+            \setlength{\tabcolsep}{2em}{
+                \begin{tabular}{|c|c|c|c|}
+                    \hline 
+                    \textbf{答辩日期} & \multicolumn{3}{c}{~~~~~~年~~~~月~~~~日} \vline\\
+                    \hline 
+                    \textbf{答辩委员会} & \textbf{姓名}  & \textbf{职称}  & \textbf{工作单位} \\
+                    \hline
+                    \textbf{主席} & xx  & xxx  & xxxxxx \\
+                    \hline
+                    \multirow{2}{*}{\textbf{委员}} & xx  & xxx  & xxxxxx \\
+                                \cline{2-4} 
+                                & xx  & xxx  & xxxxxx \\
+                    \hline
+                \end{tabular} 
+            }
+    }
+    \end{table}  
+\end{center}
+
+\newpage
+
+\subsubsection{公式}
+
+\begin{equation}
+    SSE=\sum^{n}_{i=1}(x_{sim}-x_{exp})^2 \label{eq1}
+\end{equation}
+
+上述公式\ref{eq1}为平方误差之和
+
+\subsubsection{脚注}
+
+注释应采用文中编号加脚注的模式。脚注应采用阿拉伯数字上标，字体为Times New Roman，
+分章节连续标号\footnote{脚注字号为五号，其余样式与正文相同。}。

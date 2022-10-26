@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tju.aux
+A level-1 auxiliary file: data/cover.aux
+A level-1 auxiliary file: data/declare.aux
+A level-1 auxiliary file: data/Abstract.aux
+A level-1 auxiliary file: data/Toc.aux
+A level-1 auxiliary file: Chapter/Chapter1.aux
+A level-1 auxiliary file: Chapter/Chapter2.aux
+A level-1 auxiliary file: Chapter/Chapter3.aux
+A level-1 auxiliary file: Chapter/Chapter4.aux
+A level-1 auxiliary file: data/achievement.aux
+A level-1 auxiliary file: data/acknowledgement.aux
+The style file: unsrt.bst
+Database file #1: Bibtex.bib
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            480 strings with 4466 characters,
+and the built_in function-call counts, 826 in all, are:
+= -- 71
+> -- 44
+< -- 0
++ -- 16
+- -- 13
+* -- 74
+:= -- 141
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 27
+empty$ -- 73
+format.name$ -- 13
+if$ -- 169
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 3
+pop$ -- 3
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 10
+stack$ -- 0
+substring$ -- 75
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 9
+width$ -- 4
+write$ -- 35
